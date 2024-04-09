@@ -3,15 +3,103 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/estilosite.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>QuackTech</title>
 </head>
 
 <body>
+    <header class="header">
+        <div class="header-1">
+    
+          <div class="logo"><img src="Imagens/MicrosoftTeams-image.png"></div>
+    
+          <form action="" class="search-form">
+            <input type="search" name="search" placeholder="Pesquisar..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+          </form>
+    
+          <div class="icons">
+            <div id="seach-btn" class="fas fa-seach"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="seach-btn" class="fas fa-user"></div>
+          </div>
+        </div>
+      </header>
+    
+                                              <!--Nav-->
+      <span id="iconMenu" class="material" onclick="clickMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </span>
+      <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="#">Eletrônicos</a>
+        <a href="#">Brinquedos</a>
+        <a href="contato.html">Contato</a>
+        <a href="#">Sobre Nós</a>
+      </nav>
 <h1>Criar Conta</h1>
 
-<p>teste</p>
+<form id="form" class="form">
+    <div class="container">
+    <div>
+        <label for="nome"></label>
+        <input type="text" id="nome" placeholder="Nome Completo">
+    </div>
+    <div>
+        <label for="Email"></label>
+        <input type="text" id="Email" placeholder="E-mail">
+    </div>
+    <div>
+        <label for="Telefone"></label>
+        <input type="number" id="Telefone" placeholder="Telefone">
+    </div>
+    <div>
+        <label for="Comentario"></label>
+       <textarea name="comentario" id="comentario" cols="65" rows="5" placeholder="comentario"></textarea>
+    </div>
+    <div>
+        <button id="btnenviar" type="button" value="enviar">Enviar</button>
+    </div>
+</div>
+</form>
 
+
+<footer class="footer">
+    <div class="footer-conteudo">
+      <div class="menu-footer">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Carrinho</a></li>
+          <li><a href="#">Área do cliente</a></li>
+          <li><a href="#">Eletrônicos</a></li>
+          <li><a href="#">Brinquedos</a></li>
+        </ul>
+      </div>
+      <div class="footer-cont">
+        <p>Formas de Pagamentos</p>
+
+        <img src="imagem/elo.svg" alt="">
+        <img src="imagem/visa.svg" alt="">
+        <img src="imagem/mastercard.svg" alt="">
+        <img src="imagem/boleto.svg" alt="">
+        <img src="imagem/fpr_pixMP 2.webp" alt="">
+
+      </div>
+      <div class="redes">
+        <p>Mídias Social</p>
+        <div class="rede-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <p>"&copy; Direitos autorais e reservados"</p>
+    </div>
+  </footer>
 
 </body>
 
