@@ -204,14 +204,14 @@ nav a:focus,
 /* Banner */
 
 .slideshow-container {
-    max-width: 800px;
+    max-width: 400px;
     position: relative;
     margin: auto;
   }
   
   .slideshow-container img{
-    width: 100px;
-    height: 500px;
+    width: 100%;
+    height: 50px;
   }
   /* Next & previous buttons */
   .prev, .next {
