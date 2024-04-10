@@ -292,7 +292,7 @@ nav a:focus,
 .card-conteudo figure {
     margin: 2%;
     text-align: center;
-    width: 123px;
+    width: 115px;
     
 }
 .card-conteudo{
@@ -334,6 +334,7 @@ nav a:focus,
     background-color: #0bb5e4;
 }
 
+
 /* Produtos */
 .card {
   box-shadow: 0 4px 8px 0;
@@ -358,14 +359,15 @@ nav a:focus,
 }
   .card button {
     border: none;
+    border-radius: 35px;
     outline: 0;
-    padding: 12px;
-    color: white;
+    padding: 10px;
+    color: #000;
     background-color: #6262F4;
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .card button:hover {
@@ -433,7 +435,8 @@ nav a:focus,
 
 
               /* Formulario */
-
+              
+              
 form{
     display: flex;
     justify-content: center;
@@ -455,6 +458,7 @@ button{
     color: #fff;
     padding: 10px;
     cursor: pointer;
+    border-radius: 30px;
  
 }
 
