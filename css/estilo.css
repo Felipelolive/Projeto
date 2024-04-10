@@ -279,18 +279,18 @@ nav a:focus,
 
 .card-conteudo-icons{
     margin: 15px;
-    padding: 5%;
+    padding: 3%;
  
 }
 
 .card-conteudo img{
     width: 80%;
-    padding: 3px;
+    padding: 10px;
     background-color: #6262F4;  
 } 
 
 .card-conteudo figure {
-    margin: 2%;
+    margin: 1%;
     text-align: center;
     width: 115px;
     
@@ -333,14 +333,25 @@ nav a:focus,
     border-radius: 25px;
     background-color: #0bb5e4;
 }
-
+card-conteudo:link,
+card-conteudo:visited,
+#inconMenu:link,
+#iconMenu:visited {
+    text-decoration: none;
+    color: white;
+    transition: background-color 1s;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Produtos */
 .card {
   box-shadow: 0 4px 8px 0;
   transition: 0.3s;
   width: 250px;
-  padding: 25px;
+  padding: 20px;
   margin-top: 25px;
 }
 .cdpf{
@@ -352,7 +363,7 @@ nav a:focus,
 }
 .card img{
     width: 100%;
-    height: 200px;
+    height: 150px;
 }
 .container {
   padding: 2px 16px;
