@@ -503,6 +503,12 @@ h2 {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 .logo img {
     width: 80px;
     height: 80px;
@@ -623,6 +629,7 @@ nav a:focus,
     transition: background-color 1s;
 }
 
+
 /* footer */
 .footer {
     border-top: solid #7f7f80 5px;
@@ -631,6 +638,7 @@ nav a:focus,
     text-align: center;
     width: 100%;
     margin-top: 200px;
+   
 }
 
 .footer img {
@@ -640,6 +648,7 @@ nav a:focus,
 .footer-conteudo {
     padding: 15px;
     color: #fff;
+
 }
 
 .footer-conteudo ul {
@@ -654,6 +663,10 @@ nav a:focus,
     width: 45px;
 }
 
+#card-imagem {
+    background-color: #6262F4;
+}
+
 .menu-footer a {
     text-decoration: none;
     color: #fff;
@@ -666,6 +679,7 @@ nav a:focus,
 .redes img {
     min-width: 45px;
     width: 45px;
+
 }
 
 .footer-conteudo {
@@ -709,56 +723,66 @@ nav a:focus,
 }
 
 
-
-
 /* Contato */
 
-#form-contato {
-    margin: auto;
-    max-width: 700px;
-    width: 95%;
-    margin-top: 60px;
-}
-
-#form-contato input,
-#form-contato textarea {
-    border: solid 1px #7f7f80;
-    width: 100%;
-    margin: 4px auto;
-    border-radius: 7px;
-}
-
-h1 {
+form{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+
 }
 
-#form-contato input {
-    height: 30px;
+form div{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#form-contato label {
-    font-weight: bold;
+.conteudo{
+    margin-top: 80px;
 }
 
-#form-contato btton:hover,
-#form-contato button:focus {
-    background-color: #262678;
-    cursor: pointer;
+textarea {
+    border: solid 2px black;
+    width: 280px;
+    margin: 4px auto;
+    border-radius: 5px;
+}
+label, button{
+    display: block;
 }
 
-#form-contato button {
-    border: none;
-    padding: 2%;
+button{
+    border: 1px solid #6262F4;
     background-color: #6262F4;
-    color: white;
-    border-radius: 35px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px ;
+    display: flex;
+    justify-content: flex-start;
+    
+    
 }
 
-.conteudo-info p {
-    margin: 5%;
-    text-align: center;
+button:hover{
+    opacity: 0.9;
 }
+
+input{
+    width: 280px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 
 

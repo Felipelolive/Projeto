@@ -42,31 +42,35 @@
     <a href="#">Sobre Nós</a>
   </nav>
 
-  <main>
-    <form action="" id="form-contato" method="post">
-      <h1>Contato</h1>
-
-      <p>
-        <label for="nome"></label>
-        <input type="text" id="nome" name="nome" placeholder="Nome">
-      </p>
-      <p>
-        <label for="email"></label>
-        <input type="email" id="email" name="email" placeholder="E-mail">
-      </p>
-      <p>
-        <label for="telefone"></label>
-        <input type="number" id="telefone" name="telefone" placeholder="Telefone">
-      </p>
-      <p>
-        <label for="mensagem"></label>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="9" placeholder="Comentário"></textarea>
-      </p>
-      <p>
-        <button id="limpar" type="reset" name="limpar">Limpar Campos</button>
-        <button id="enviar" name="enviar">Enviar Dados</button>
-      </p>
-    </form>
+  <main class="conteudo">
+   <h1 id="titulo">Contato</h1>
+    <form id="form">
+      <div>
+          <label for="nome"></label>
+          <input type="text" id="nome" placeholder="Nome Completo">
+      </div>
+      <div>
+          <label for="Email"></label>
+          <input type="text" id="Email" placeholder="E-mail">
+      </div>
+      <div>
+          <label for="Telefone"></label>
+          <input type="number" id="Telefone" placeholder="Telefone">
+      </div>
+      <div>
+          <label for="Mensagem"></label>
+         <textarea name="mensagem" id="mensagem" placeholder="Comentário"></textarea>
+      </div>
+      <div>
+        <button id="btnenviar" type="button" value="enviar">Enviar</button>    
+      </div>
+  </form>
+  
+  
+  
+  
+  
+  
   </main>
 
   <footer class="footer">
