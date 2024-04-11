@@ -25,52 +25,59 @@
       <div class="icons">
         <div id="seach-btn" class="fas fa-seach"></div>
         <a href="#" class="fas fa-shopping-cart"></a>
-        <div id="seach-btn" class="fas fa-user"></div>
+        <div id="seach-btn" class="fas fa-user">
+        <a href="cadastro.html"></a></div>
       </div>
     </div>
+    
+    <!--Nav-->
+    <span id="iconMenu" class="material" onclick="clickMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+    <nav id="navbar">
+      <a href="index.html">Home</a>
+      <a href="#">Eletrônicos</a>
+      <a href="#">Brinquedos</a>
+      <a href="contato.html">Contato</a>
+      <a href="#">Sobre Nós</a>
+    </nav>
   </header>
-
-  <!--Nav-->
-  <span id="iconMenu" class="material" onclick="clickMenu()">
-    <i class="fa-solid fa-bars"></i>
-  </span>
-  <nav id="navbar">
-    <a href="index.html">Home</a>
-    <a href="#">Eletrônicos</a>
-    <a href="#">Brinquedos</a>
-    <a href="contato.html">Contato</a>
-    <a href="#">Sobre Nós</a>
-  </nav>
-
-  
-    <main class="conteudo">
-      <div class="contaneir">
-      
-        <div class="form_box">
-  
-          <h2 class="titulo">Contato</h2>
-  
-          <form action="" method="">
-            <input type="text" name="name" placeholder="Nome">
-            <input type="email" name="email" placeholder="E-mail">
-            <input type="number" name="telefone" placeholder="Telefone">
-            
-            <textarea name="message" placeholder="Comentário"></textarea>
-         
-            <button type="submit">Enviar</button>
-         
-          </form>
-  
-        </div>
-    </div>
     
-    
-  
-  
-  
-  </main>
 
-  <footer class="footer">
+  <main class="conteudo">
+    <div class="conteudo-info" id="conteudo-contato">
+        <article class="cont-contato">
+            <div class="formulario">
+                <h2 class="titulo">Contato</h2>
+                <form action="" id="form-contato" method="post">
+                    <p>
+                        <label for="nome"></label>
+                        <input tabindex="5" required type="text" id="nome" name="nome" placeholder="Nome">
+                    </p>
+                    <p>
+                        <label for="email"></label>
+                        <input tabindex="6" required type="email" id="email" name="email" placeholder="E-mail">
+                    </p>
+                    <p>
+                        <label for="telefone"></label>
+                        <input tabindex="7" required type="tel" id="telefone" name="telefone" placeholder="Telefone">
+                    </p>
+                    <p>
+                        <label for="mensagem"></label>
+                        <textarea tabindex="9" name="mensagem" id="mensagem" cols="30" rows="6" placeholder="Cometário"></textarea>
+                    </p>
+                    <p>
+                        <button tabindex="10" id="limpar" type="reset" name="limpar">Limpar Campos</button>
+                        <button tabindex="11" id="enviar" name="enviar">Enviar Dados</button>
+                    </p>
+                </form>
+            </div>
+        </article>
+
+</main>
+
+
+<footer class="footer">
     <div class="footer-conteudo">
       <div class="menu-footer">
         <ul>
@@ -85,14 +92,15 @@
       </div>
       <div class="footer-cont">
         <h5>Formas de Pagamentos</h5>
-
-        <img src="imagem/elo.svg" alt="">
-        <img src="imagem/visa.svg" alt="">
-        <img src="imagem/mastercard.svg" alt="">
-        <img src="imagem/boleto.svg" alt="">
-        <img src="imagem/fpr_pixMP 2.webp" alt="">
-
+        <div id="card-imagem">
+          <img src="imagem/elo.svg" alt="">
+          <img src="imagem/visa.svg" alt="">
+          <img src="imagem/mastercard.svg" alt="">
+          <img src="imagem/boleto.svg" alt="">
+          <img src="imagem/fpr_pixMP 2.webp" alt="">    
+        </div>
       </div>
+
       <div class="redes">
         <h5>Mídias Social</h5>
         <div class="rede-icons">
@@ -109,4 +117,9 @@
 
 </body>
 
+
+
+
 </html>
+
+
