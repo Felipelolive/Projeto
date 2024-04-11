@@ -547,10 +547,22 @@ h2{
     margin-top: 213px;
 } */
 
-  /* Criar conta */
+/* Criar conta */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #262678 ;
+    margin-top: 70px;
+   
+}
 
+#form-cadastro,form{
+    flex-wrap: wrap;
+    padding: 35px;
+}
 
-/* label, button{
+label, button{
     display: block;
 }
 
@@ -568,12 +580,12 @@ button:hover{
 }
 
 input{
-    width: 280px;
+    width: 300px;
     border: 1px solid #ccc;
     padding: 7px;
     border-radius: 5px;
-    margin: 4px auto;
+    margin: 4px;
 }
 
 
- */
+
