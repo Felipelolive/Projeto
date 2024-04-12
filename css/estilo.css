@@ -94,7 +94,7 @@ label:hover {
     overflow: hidden;
     line-height: 25px;
     padding-left: 1%;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #6262F4;
 }
 
@@ -140,7 +140,7 @@ nav a:focus,
     color: #ddd;
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .footer img {
@@ -361,7 +361,7 @@ nav a:focus,
 
 #card-celular {
     border-radius: 25px;
-    background-color: rgb(195, 205, 50);
+    background-color: #cae30f;
 }
 
 #card-carrinho {
@@ -382,8 +382,9 @@ card-conteudo:visited,
     align-items: center;
 }
 
+
 /* Produtos */
-.card {
+.card{
     box-shadow: 0 4px 8px 0;
     transition: 0.3s;
     width: 230px;
@@ -391,7 +392,7 @@ card-conteudo:visited,
     margin-top: 35px;
 }
 
-.cdpf {
+.cdpf{
     margin: 45px;
     gap: 2rem;
     margin-top: 15px;
@@ -471,7 +472,7 @@ card-conteudo:visited,
         align-items: center;
         flex-wrap: wrap;
         gap: 3rem;
-        margin: 0;
+       
 
     }
 }
@@ -529,7 +530,7 @@ card-conteudo:visited,
     margin: 5%;
     text-align: center;
 }
-h2{
+h3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -537,87 +538,15 @@ h2{
 }
 
 /* CADASTRO */
-
-#form-container{
-  background-color: #717171;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px;
-  width: 400px;
-}
-
-h1{
-    text-align: center;
-    margin: 0 0 20px;
-}
-
-#form{
-    margin: auto;
-    max-width: 500px;
-    width: 95%;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.form-section{
-    padding: 30px 40px;
-}
-.form-input{
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    position: relative;
-}
-
-.form-input label{
-    color: #777;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.form-input input{
-    border: solid 2px #777;
-    border-radius: 4px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    outline: none;
-}
-
-.form-input input:focus {
-    outline: 0;
-    border-color: #777;
-}
-
-
- button{
-    border: 1px solid #6262F4;
-    background-color: #6262F4;
-    color: #fff;
-    padding: 8px;
-    cursor: pointer;
-    border-radius: 15px ;  
-    margin-top: 10px;
-}
-
- button:hover{
-    opacity: 0.9;
-}
-
-
-
-
-/* Criar conta
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #262678 ;
     margin-top: 70px;
    
 }
 
 #form-cadastro,form{
-    flex-wrap: wrap;
     padding: 35px;
 }
 
@@ -647,4 +576,7 @@ input{
 }
 
 
- */
+/* Criar conta */
+
+
+
