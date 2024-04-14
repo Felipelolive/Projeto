@@ -21,7 +21,7 @@ body {
 
 .header-1 {
     background-color: #262678;
-    padding: 0;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +29,7 @@ body {
 }
 
 .fas fa-search {
-    margin: 0 auto;
+    margin: 0px auto;
     font-size: 30px;
 }
 
@@ -69,10 +69,11 @@ label:hover {
 
 .icons div,
 .icons a {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 25px;
     color: #000;
     cursor: pointer;
+    
 }
 
 .icons div:hover,
@@ -139,7 +140,7 @@ nav a:focus,
     color: #ddd;
     text-align: center;
     width: 100%;
-    margin-top: 500px;
+    margin-top: 213px;
 }
 
 .footer img {
@@ -391,7 +392,7 @@ card-conteudo:visited,
 }
 
 .cdpf {
-    margin: 45px;
+    margin: 30px;
     gap: 2rem;
     margin-top: 15px;
 }
@@ -427,13 +428,13 @@ card-conteudo:visited,
 }
 
 @media screen and (min-width: 700px) {
-    body{
+    /* body{
         padding-bottom: 6rem;
-    }
-    .hearder-1 {
+    } */
+    /* .hearder-1 {
        padding: 2rem;
 
-    }
+    } */
 
     /* Nav */
     nav {
@@ -476,10 +477,10 @@ card-conteudo:visited,
 }
 
 @media screen and (min-width: 500px){
-    .hearder-1 {
+    /* .hearder-1 {
        padding: 2rem;
     }
-    
+     */
     
     .cdpf{
         display: flex;
@@ -499,18 +500,12 @@ card-conteudo:visited,
 
 /* Contato */
 .conteudo-info{
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #dad8d8; 
-}
-
-.conteudo-info, article{
-    width: 12rem;
-    padding: 1px;
-    margin: 1rem;
     
 }
+
 .conteudo-info{
     margin: auto;
     max-width: 300px;
@@ -545,10 +540,10 @@ card-conteudo:visited,
 }
 
 h2{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
+    
 }
 
 
@@ -578,7 +573,7 @@ h1{
 }
 
 #form{
-    margin: auto;
+    
     max-width: 500px;
     width: 95%;
     margin-top: 50px;
@@ -673,5 +668,7 @@ input{
     margin: 4px;
 }
 
+
+/* Criar conta */
 
 
