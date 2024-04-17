@@ -4,6 +4,7 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 
 .header-1 {
     background-color: #262678;
-    padding: 2px;
+    padding: 15px 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +30,7 @@ body {
 }
 
 .fas fa-search {
-    margin: 0px auto;
+    margin: 0 auto;
     font-size: 30px;
 }
 
@@ -69,11 +70,10 @@ label:hover {
 
 .icons div,
 .icons a {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 25px;
     color: #000;
     cursor: pointer;
-    
 }
 
 .icons div:hover,
@@ -94,8 +94,10 @@ label:hover {
     overflow: hidden;
     line-height: 25px;
     padding-left: 1%;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #6262F4;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
@@ -140,7 +142,7 @@ nav a:focus,
     color: #ddd;
     text-align: center;
     width: 100%;
-    margin-top: 213px;
+    margin-top: 90px;
 }
 
 .footer img {
@@ -361,7 +363,7 @@ nav a:focus,
 
 #card-celular {
     border-radius: 25px;
-    background-color: rgb(195, 205, 50);
+    background-color: #cae30f;
 }
 
 #card-carrinho {
@@ -382,8 +384,9 @@ card-conteudo:visited,
     align-items: center;
 }
 
+
 /* Produtos */
-.card {
+.card{
     box-shadow: 0 4px 8px 0;
     transition: 0.3s;
     width: 230px;
@@ -391,8 +394,8 @@ card-conteudo:visited,
     margin-top: 35px;
 }
 
-.cdpf {
-    margin: 30px;
+.cdpf{
+    margin: 45px;
     gap: 2rem;
     margin-top: 15px;
 }
@@ -428,14 +431,17 @@ card-conteudo:visited,
 }
 
 @media screen and (min-width: 700px) {
-    /* body{
-        padding-bottom: 6rem;
-    } */
-    /* .hearder-1 {
-       padding: 2rem;
-
-    } */
-
+    .hearder-1 .search-form {
+        float: none;
+    }
+    .hearder-1 .search-form .search{
+        float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    }
     /* Nav */
     nav {
         width: 100%;
@@ -459,7 +465,7 @@ card-conteudo:visited,
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-       
+        width: 100%;
 
     }
 
@@ -471,17 +477,12 @@ card-conteudo:visited,
         align-items: center;
         flex-wrap: wrap;
         gap: 3rem;
-        margin: 0;
+       
 
     }
 }
 
 @media screen and (min-width: 500px){
-    /* .hearder-1 {
-       padding: 2rem;
-    }
-     */
-    
     .cdpf{
         display: flex;
         justify-content: center;
@@ -499,39 +500,30 @@ card-conteudo:visited,
 
 
 /* Contato */
-.conteudo-info{
-    align-items: center;
-    justify-content: center;
-    background-color: #dad8d8; 
-    
-}
 
-.conteudo-info{
+#form-contato{
     margin: auto;
-    max-width: 300px;
-    width: 100%;
+    max-width: 700px;
+    width: 95%;
 }
-.conteudo-info input, .conteudo-info textarea{
+#form-contato input, #form-contato textarea{
     border: solid 2px #717171;
     width: 100%;
-    height: 100%;
-    margin: 4px ;
-    padding: 5px;
+    margin: 4px auto;
     border-radius: 5px;
-    display: block;
 }
-.conteudo-info input{
+#form-contato input{
     height: 40px;
 }
-.conteudo-info label{
+#form-contato label{
     font-weight: bold;
 }
-.conteudo-info btton:hover,
-.conteudo-info button:focus{
+#form-contato btton:hover,
+#form-contato button:focus{
     background-color: #262678;
     cursor: pointer;
 }
-.conteudo-info button{
+#form-contato button{
     border: none;
     padding: 2%;
     background-color: #6262F4;
@@ -539,107 +531,27 @@ card-conteudo:visited,
     border-radius: 10px;
 }
 
-h2{
-    
+.conteudo-info p{
+    margin: 5px;
+    text-align: center;
+}
+h3{
+    display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 55px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CADASTRO */
-
-#form-container{
-  background-color: #717171;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px;
-  width: 400px;
-}
-
-h1{
-    text-align: center;
-    margin: 0 0 20px;
-}
-
-#form{
-    
-    max-width: 500px;
-    width: 95%;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.form-section{
-    padding: 30px 40px;
-}
-.form-input{
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    position: relative;
-}
-
-.form-input label{
-    color: #777;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.form-input input{
-    border: solid 2px #777;
-    border-radius: 4px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    outline: none;
-}
-
-.form-input input:focus {
-    outline: 0;
-    border-color: #777;
-}
-
-
- button{
-    border: 1px solid #6262F4;
-    background-color: #6262F4;
-    color: #fff;
-    padding: 8px;
-    cursor: pointer;
-    border-radius: 15px ;  
-    margin-top: 10px;
-}
-
- button:hover{
-    opacity: 0.9;
-}
-
-
-
-
-Criar conta
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #262678 ;
     margin-top: 70px;
    
 }
 
 #form-cadastro,form{
-    flex-wrap: wrap;
     padding: 35px;
 }
 
@@ -670,5 +582,6 @@ input{
 
 
 /* Criar conta */
+
 
 
