@@ -233,11 +233,12 @@ nav a:focus,
     max-width: 300px;
     position: relative;
     margin: auto;
+    margin-top: 60px;
 }
 
 .slideshow-container img {
-    width: 100px;
-    height: 200px;
+    width: 200px;
+    height: 400px;
 }
 
 /* Next & previous buttons */
