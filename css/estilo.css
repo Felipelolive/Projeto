@@ -70,7 +70,7 @@ label:hover {
 
 .icons div,
 .icons a {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 25px;
     color: #000;
     cursor: pointer;
@@ -542,7 +542,7 @@ h3{
     margin-top: 55px;
 }
 
-/* CADASTRO */
+/* Login */
 .container{
     display: flex;
     justify-content: center;
@@ -581,7 +581,36 @@ input{
 }
 
 
-/* Criar conta */
+/* Cadastro*/ 
+ 
+.form-conta{
+    margin: auto;
+    max-width: 700px;
+    width: 95%;
+}
+.form-conta input{
+    border: solid 2px #717171;
+    width: 100%;
+    margin: 4px auto;
+    border-radius: 5px;
+}
 
+.form-conta input{
+    height: 40px;
+}
 
-
+.form-conta label{
+    font-weight: bold;
+}
+.form-conta btton:hover,
+.form-conta button:focus{
+    background-color: #262678;
+    cursor: pointer;
+}
+.form-conta button{
+    border: none;
+    padding: 2%;
+    background-color: #6262F4;
+    color: white;
+    border-radius: 10px;
+}
