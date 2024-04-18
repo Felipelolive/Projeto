@@ -1,4 +1,4 @@
-
+       ////BANER////
 let slideIndex = 0;
 showSlides();
 
@@ -17,4 +17,14 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); 
+}
+
+           ///nav///
+function clickMenu(){
+  var navbar = document.getElementById("navbar");
+  if (navbar.style.display === "block"){
+      navbar.style.display = "none";
+  }else {
+    navbar.style.display = "block";
+  }
 }
